@@ -1,0 +1,2 @@
+# Rock-Paper-Scissor
+Develop a simple 2-playerRock, Paper, Scissors game in C.Each player enters 1-3 for Rock, Paper, and Scissors, respectively. The program should print an error message for other input characters. The basic rule at this game says paper covers rock, rock breaks scissors, and scissors cut paper. Accordingly, print which player wins the game, or tie if both players are the same.     Note: you only have to fill in 3 places: 1) for reading Player 1 input; 2) for reading Player 2 input; 3) condition for determining the winner.
