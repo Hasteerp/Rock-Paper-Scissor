@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main(i)
+{
+    unsigned int Player1, Player2;
+
+    printf("Give 1, 2 or 3 for rock, paper, scissors for Player 1:");
+    scanf("%d",&Player1);
+
+    printf("Give 1, 2 or 3 for rock, paper, scissors for Player 2:");
+    scanf("%d",&Player2);
+
+    printf("Player input %d and %d\n",Player1,Player2);
+    if((Player1 < 1) || (Player2 < 1) || (Player1 > 3) || (Player2>3)){
+        printf("Bad Input\n");
+        return 0;
+    }
+
+    if (Player1 == Player2) {
+        printf("Tie!\n");
+        return 0;
+    } 
+
+    if( Player1==2 && Player2==1){
+        printf("Player 1 wins\n");
+    } 
+    else if( Player1==1 && Player2==3){
+        printf("Player 1 wins\n");
+    } 
+    else if( Player1==3 && Player2==2){
+        printf("Player 1 wins\n");
+    } 
+    else {
+        printf("Player 2 wins\n");
+    }
+
+    return 0;
+
+}
